@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="SSID"
+        android:textSize="16sp"
+        android:id="@+id/textViewSSID"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="BSSID"
+        android:textSize="16sp"
+        android:id="@+id/textViewBSSID"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="level : 1 (Max 5)"
+        android:textSize="16sp"
+        android:id="@+id/textViewLevel"
+        android:layout_height="wrap_content" />
+
+
+    <ListView
+        android:paddingBottom="16dp"
+        android:layout_width="match_parent"
+        android:id="@+id/listViewShowWifiDetailsActivityId"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+
+    </LinearLayout>

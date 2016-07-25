@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Saved SSIDs"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:paddingBottom="16dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/listViewHomeScreenId"
+        android:layout_height="wrap_content">
+    </ListView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/buttonHomeScreenId"
+        android:text="Search And Save"
+        />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/buttonServiceId"
+            android:text="Start Monitoring"
+            />
+    </LinearLayout>
+
+    </LinearLayout>
